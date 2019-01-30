@@ -15,14 +15,18 @@ function [entry] = create_legend_entries(pre_text,values,style)
 % Feb. 18, 2018
 
 
-
+if iscell(values)
 for i = 1: length(values{1})
     entry{i} = '';
     for k = 1 : length(pre_text)
         val = values{k};
-        entry{i} = [entry{i} sprintf(['%s = ' style{k}],pre_text{k},val(i))];
+        entry{i} = [entry{i} ', ' sprintf(['%s = ' style{k}],pre_text{k},val(i))];
     end
 end
+else
+for i = 1: length(values)
+     entry{i} = [sprintf(['%s = ' style],pre_text,values(i))];
+end    
 
 end
 
