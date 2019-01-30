@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # matlab_scripts
 
 collection of useful matlab functions
@@ -9,3 +8,4 @@ vline:                  create a vertical line (Brandon Kuczenski)
 jbfill:                 fill in a region between two curves (John Bockstege)
 new_fig:                create new figure of specified size
 create_legened_entries: create legend entry labels for trend plots
+auto_slope:             automatically draw a slope on a graph
