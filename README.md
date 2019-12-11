@@ -17,3 +17,4 @@ some files are from the Matlab online community (author indicated in brackets)
 * `create_legened_entries`:  create legend entry labels for trend plots
 * `auto_slope`:              automatically draw a slope on a graph **in progress**
 * `export_fig/`:             figure exporting scripts (Yair Altman)
+* `pde/`:                    scripts for standard finite difference methods
